@@ -1,0 +1,56 @@
+.pinkcol{
+    color: pink;
+}
+#greycol{
+    color: gray;
+}
+#redcol{
+    color: red;
+}
+#greencol{
+    color: green;
+}
+.yellowcol{
+    color: yellow;
+}
+
+.schedule li:hover {
+    background-color: #cfb2b2;
+    
+}
+.schedule li:focus {
+    outline: 2px solid #007BFF;}
+
+.container{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 8px;
+ border-color: black;
+}
+h1{
+    text-align: center;
+}
+.monday:first-child{
+    background-color: blueviolet;
+}
+.tuesday:nth-child(2n){
+    background-color: cornflowerblue;
+}
+.wednesday:nth-child(3n){
+    background-color: rgb(50, 221, 184);
+}
+.thursday:nth-child(4n) {
+    background-color: firebrick;
+}
+
+
+.friday:nth-child(5n){
+    background-color: darkcyan;
+}
+.saturday:nth-child(6n){
+    background-color: darkviolet;
+}
+
+.sunday:last-child{ 
+    background-color: hotpink;
+}
